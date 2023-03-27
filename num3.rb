@@ -7,18 +7,18 @@ print "c = "
 c = gets.to_f
 
 if a > b && a > c
-	gip = a
-	kat1 = b 
-	kat2 = c
+  gip = a
+  kat1 = b 
+  kat2 = c
 elsif b > a && b > c
-	gip = b 
-	kat1 = a 
-	kat2 = c
+  gip = b 
+  kat1 = a 
+  kat2 = c
 else 
-	c > a && c > b
-	gip = c 
-	kat1 = b 
-	kat2 = a
+  c > a && c > b
+  gip = c 
+  kat1 = b 
+  kat2 = a
 end
 
 if a == b && b == c 
@@ -31,7 +31,3 @@ elsif
 else 
   puts "Ваш треугольник разностронний и не прямоугольный"
 end
-
-
-
-
